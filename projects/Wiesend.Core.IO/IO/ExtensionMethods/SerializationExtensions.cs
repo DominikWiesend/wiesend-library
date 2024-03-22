@@ -184,10 +184,12 @@ namespace Wiesend.Core.IO
         /// </summary>
         public static SerializationType JSON { get { return new SerializationType("application/json"); } }
 
+#if NETFRAMEWORK
         /// <summary>
         /// SOAP
         /// </summary>
         public static SerializationType SOAP { get { return new SerializationType("application/soap+xml"); } }
+#endif
 
         /// <summary>
         /// XML

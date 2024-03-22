@@ -53,7 +53,7 @@
     <GitHubRepositoryType   Condition="'$(GitHubRepositoryType)'   == ''">GitHub Repository</GitHubRepositoryType>
     <NugetPackageTags       Condition="'$(NugetPackageTags)'       == ''">wiesend;lib;library;dll;io</NugetPackageTags>
     <NugetPackageName       Condition="'$(NugetPackageName)'       == ''">Wiesend.Core.IO</NugetPackageName>
-    <NugetPackageVersion    Condition="'$(NugetPackageVersion)'    == ''">1.0.0.0</NugetPackageVersion>
+    <NugetPackageVersion    Condition="'$(NugetPackageVersion)'    == ''">1.0.1.0</NugetPackageVersion>
     <NugetPackageExtensions Condition="'$(NugetPackageExtensions)' == ''">.pdb</NugetPackageExtensions>
   </PropertyGroup>
 
